@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .dvHeader {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #000;
+    color: white;
+    padding: 1rem;
+  }
+  .dvProducts {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .dvProducts .product {
+    flex: 0 0 14%;
+    border: 1px solid #ddd;
+    padding: 1rem;
+  }
+  .img-fluid {
+    max-width: 100%;
+    display: block;
+  }
+  button {
+    background-color: #ddd;
+    border: 0;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  .dvCart {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 400px;
+    height: 100%;
+    display: none;
+  }
+  .dvCart .closeBtn {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: brown;
+    padding: 0 1rem;
+  }

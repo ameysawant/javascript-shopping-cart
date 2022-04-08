@@ -5,129 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-      .dvHeader {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        background-color: #000;
-        color: white;
-        padding: 1rem;
-      }
-      .dvProducts {
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 1200px;
-        margin: auto;
-      }
-      .dvProducts .product {
-        flex: 0 0 25%;
-        border: 1px solid #ddd;
-        padding: 1rem;
-      }
-      .img-fluid {
-        max-width: 100%;
-        display: block;
-      }
-      button {
-        background-color: #ddd;
-        border: 0;
-        padding: 0.5rem 1rem;
-        cursor: pointer;
-      }
-    </style>
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
+    <!-- https://api.json-generator.com/templates/NJojKfMBgNOj/data?access_token=5e34zn7yhf9i7cfu89lda4qasoelrlo37ooywpw3 -->
     <div class="dvHeader">
       <div class="logo">logo</div>
-      <div class="cartIcon">cart icon</div>
+      <div class="cartBtn">{0}</div>
     </div>
-    <div class="dvProducts">
-      <div class="product">
-        <img
-          src="https://static.wixstatic.com/media/2c0034_88b1456dfb2d4bd094da5f88db2812f2~mv2.jpg"
-          alt=""
-          class="img-fluid"
-        />
-        <h4>Watermelon</h4>
-        <p>Rs. 65.00</p>
-        <button type="button">add to cart</button>
-      </div>
-      <div class="product">
-        <img
-          src="https://static.wixstatic.com/media/2c0034_88b1456dfb2d4bd094da5f88db2812f2~mv2.jpg"
-          alt=""
-          class="img-fluid"
-        />
-        <h4>Watermelon</h4>
-        <p>Rs. 65.00</p>
-        <button type="button">add to cart</button>
-      </div>
-      <div class="product">
-        <img
-          src="https://static.wixstatic.com/media/2c0034_88b1456dfb2d4bd094da5f88db2812f2~mv2.jpg"
-          alt=""
-          class="img-fluid"
-        />
-        <h4>Watermelon</h4>
-        <p>Rs. 65.00</p>
-        <button type="button">add to cart</button>
-      </div>
-      <div class="product">
-        <img
-          src="https://static.wixstatic.com/media/2c0034_88b1456dfb2d4bd094da5f88db2812f2~mv2.jpg"
-          alt=""
-          class="img-fluid"
-        />
-        <h4>Watermelon</h4>
-        <p>Rs. 65.00</p>
-        <button type="button">add to cart</button>
-      </div>
-      <div class="product">
-        <img
-          src="https://static.wixstatic.com/media/2c0034_88b1456dfb2d4bd094da5f88db2812f2~mv2.jpg"
-          alt=""
-          class="img-fluid"
-        />
-        <h4>Watermelon</h4>
-        <p>Rs. 65.00</p>
-        <button type="button">add to cart</button>
-      </div>
-      <div class="product">
-        <img
-          src="https://static.wixstatic.com/media/2c0034_88b1456dfb2d4bd094da5f88db2812f2~mv2.jpg"
-          alt=""
-          class="img-fluid"
-        />
-        <h4>Watermelon</h4>
-        <p>Rs. 65.00</p>
-        <button type="button">add to cart</button>
-      </div>
-      <div class="product">
-        <img
-          src="https://static.wixstatic.com/media/2c0034_88b1456dfb2d4bd094da5f88db2812f2~mv2.jpg"
-          alt=""
-          class="img-fluid"
-        />
-        <h4>Watermelon</h4>
-        <p>Rs. 65.00</p>
-        <button type="button">add to cart</button>
-      </div>
-      <div class="product">
-        <img
-          src="https://static.wixstatic.com/media/2c0034_88b1456dfb2d4bd094da5f88db2812f2~mv2.jpg"
-          alt=""
-          class="img-fluid"
-        />
-        <h4>Watermelon</h4>
-        <p>Rs. 65.00</p>
-        <button type="button">add to cart</button>
-      </div>
+    <div class="dvProducts"></div>
+    <div class="dvCart">
+      <div class="closeCartBtn">x</div>
     </div>
+
+    <script src="app.js"></script>
   </body>
 </html>
